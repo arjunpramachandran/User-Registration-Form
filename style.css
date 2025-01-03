@@ -1,0 +1,13 @@
+.is-invalid{
+    border-color: red;
+
+}
+
+.error{
+    font-size: small;
+    color: red;
+}
+.required::after {
+    content: ' *';
+    color: red;
+}
